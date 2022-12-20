@@ -1,0 +1,7 @@
+def missingch(s):
+  abc=string.ascii_lowercase
+  num=string.digits
+  lis=num+abc
+  for i in range(len(lis)):
+     if lis[i] not in s:
+         print(lis[i],end="")
